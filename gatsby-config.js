@@ -21,6 +21,12 @@ module.exports = {
       },
       __key: 'content',
     },
+    {
+      resolve: 'gatsby-plugin-pdf',
+      options: {
+        allPages: true,
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
